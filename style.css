@@ -1,0 +1,41 @@
+@font-face {
+  font-family: creamyChocolote;
+  src: url("fonts/CreamyChocolate-MVpXJ.ttf");
+}
+
+:root {
+  --green: #4fb8b9;
+  --blue: #1b2c56;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.names {
+  width: 80vw;
+}
+
+.pajaritos {
+  height: 5rem;
+}
+
+.frise {
+  width: 100vw;
+}
+
+.speech {
+  padding: 2rem 1.5rem;
+  color: var(--blue);
+  font-family: creamyChocolote;
+  font-size: 1.3rem;
+  text-align: justify;
+}
