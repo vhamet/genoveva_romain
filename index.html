@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="style.css" rel="stylesheet">
   <link rel="shortcut icon" type="image/x-icon" href="icon.ico" />
+  <script type="text/javascript" src="script.js"></script>
   <title>Genoveva y Romain</title>
 </head>
 
@@ -14,54 +15,85 @@
   <main>
     <img class="names" src="images/names.png" alt="names" />
     <img class="pajaritos" src="images/pajaritos.png" alt="pajaritos" />
-    <div class="speech">
-      <p>Geno et Romain,</p>
+    <nav>
+      <label id="link-1" class="link current">Amélie & Marine</label>
+      <label id="link-2" class="link">Clément & Maréchale</label>
+      <label id="link-3" class="link">Sandy</label>
+      <label id="link-4" class="link">Ray</label>
+      <label id="link-5" class="link">Javier</label>
+    </nav>
+    <div id="speech-1" class="speech current">
+      <p>Geno y Romain,</p>
 
-      <p>Vous venez d’embarquer pour le plus beau des voyages, celui de l’ AMOUR … et nous, Marine et Amélie, sommes
-        très
-        fières de y vous accompagner.</p>
+      <p>Acaban de embarcar en uno de los viajes más lindo, el del AMOR… y nosotras, Marine y Amélie, estamos muy
+        orgullosas de acompañarlos.
+
+      <p>Romain, en primer lugar, felicidades por haber realizado esta primera parada sin ningún problema. Para quién no
+        lo sabe aún, Romain es un poco soñador, distraído, en la luna.. Si, a menudo se estresa en sus pequeños viajes
+        del día a día, perdiendo sus papeles, sus llaves, su tarjeta de crédito, sin entrar en todos los detalles… Pero
+        esta vez, está todo bajo control, seguramente que tu amada que te acompaño hasta aquí está por algo en ello …
+
+      <p>Hoy estamos a tu lado, quién lo hubiera pensado? casarte y encima en Mexico… ¡Eso si que nos sorprendistes!
+        Desde niño, las lenguas extranjeras no te interesaban mucho, tenías que encontrar una motivación y encontraste
+        la mejor en Geno.
+
+      <p>Así que ya embarcaste para la gran aventura de tu vida.
+
+      <p>El día que conociste a Cherita, te volviste una nueva persona. En tus ojos, era obvio que te habías
+        enamorado.<br />
+        Geno, aún no sabías que Cheriton tenía sus costumbres de sesenta años, cerca de la jubilación sin hablar de sus
+        gustos musicales y de sus siestas los domingos por la tarde ! Pero estas costumbres hacen parte de él y hacen
+        que Romain sea el hombre que amas.
+
+      <p>Geno, con este viaje significa te vuelves Bretona y entras oficialmente en nuestra familia. Ya dominas una de
+        nuestras especialidades, la “galette” de sarraceno, aunque todavía no tan bien como nosotras. ¡Ahora nos toca
+        deslumbrarnos con la verdadera cocina mexicana!<br />
+        ¡Somos muy felices que hagas parte de nuestra familia y no solo por los productos L’Oréal gratis!
+
+      <p>Nos alegramos que hayan encontrado su ideal el uno en el otro y que ni siquiera un confinamiento en 25 m2
+        desmorono su amor. Estamos seguras de que se complementan y que están hechos el uno para el otro.
+
+      <p>Aquí están los dos, listos para enfrentar juntos todas las turbulencias que requiere este viaje y que les
+        deseamos que sea lo más largo y tranquilo posible.
+
+      <p>Que este lindo día sea el reflejo de su vida, llena de sorpresas, felicidades y cariño.<br />
+        ¡Felicidades y que vivan los novios!
+    </div>
+
+    <div id="speech-2" class="speech hidden"></div>
+    <div id="speech-3" class="speech hidden">
+      <p>Bonjour à toutes et à tous, aux familles, aux amis et aux mariés : </p>
+      <p>Aujourd’hui, nous sommes tous réunis pour célébrer l’amour et l’union de Veva et Romy, qui se sont trouvés au bon moment, au bon endroit. </p>
+      <p>Je me souviens de la naissance de Vevita, une petite fille dotée de beaucoup d’amour et de charisme; née avec de nombreux dons, vertues et valeurs. Ma très chère et belle nièce, nous sommes devenues amies et confidentes. C’est pour moi, un honneur et une grande fierté de faire partie de cette cérémonie unique. </p>
+      <p>Tu as voyagé à des milliers de kilomètres, loin de ta famille pour réaliser tes rêves et tu as été très courageuse et forte. Tu as mûri avec honneur, orgueil, loyauté toujours en suivant des principes, l’amour et le soutien de ta famille principalement de ta maman, ma chère sœur. Grâce à ses efforts et toujours avec la main de Dieu, vous vous êtes toujours protégés malgré la distance, parce que nous sommes ainsi, nous mexicains, aimants et mielleux.      </p>
+      <p>Et maintenant, nous accueillons Romy dans notre famille, un homme qui nous a démontré de l’affection, du respect, de l’amour, de la sincérité, de la gentillesse, de la générosité, toutes ces valeurs qui nécessitent des fondements. Bienvenu à toi, neveu adoré et à ta famille, les Rehel. </p>
+      <p>Vous êtes devenus une famille bi-culturelle mexicano-française dans un seul cœur. A partir d’aujourd’hui, vous allez partager une vie à deux en harmonie, complicité. Gardez toujours ce regard amoureux et d’illusion que vous avez. Vous allez créer une famille avec des fondements forts, la loyauté, la sécurité, les succès partagés, l’empathie, le respect, l’amabilité, la générosité et l’ingrédient principal, votre amour. </p>
+      <p>Merci infiniment pour nous avoir fait participé de votre union dans notre Mexique. </p>
+      <p>Félicitations Famille Rehel !</p>
+      <p>Je vous aime de tout mon cœur. </p>
 
 
-      <p>Romain, nous tenons tout d’abord à te féliciter pour avoir accompli cette première escale sans encombre.
-        Pour ceux qui ne le savent pas, Romain est comment on pourrait dire ? Tête en l’air ? étourdi ? rêveur ? Et oui,
-        il s’est causé souvent du stress même lors de ses petits déplacements du quotidien en perdant ses papiers, ses
-        clefs, sa carte bancaire et on en passe et des meilleurs .... Mais cette fois-ci tout est sous contrôle,
-        certainement que ta bien aimée qui t’a accompagné ici y est pour quelque chose ….</p>
-
-
-      <p>Nous voici aujourd’hui à vos côtés, qui l’eut cru ? te marier et au Mexique.... Sur ce coup-là, tu nous as bien
-        surprises ! ton gout pour les langues étrangères lors de notre enfance n’était pas très affirmé !
-        Il te fallait trouver la motivation, tu as trouvé la meilleure en Geno</p>
-
-      <p>Tu as donc bien embarqué pour la grande aventure de ta vie.</p>
-
-      <p>Le jour où tu as fait la rencontre de Cherita, tu es devenu une nouvelle personne. Dans tes yeux, il était
-        évident que tu étais tombé amoureux.
-        Geno, tu ne savais pas encore que Cheriton avait quelques habitudes de soixantenaire à la limite du
-        retraité pour
-        ne pas citer ses gouts musicaux et ses siestes du dimanche après-midi ! Mais ces habitudes font de Romain ,
-        l’homme que tu aimes. </p>
-
-
-      <p>Quant à toi, Geno par ce voyage, tu prends la nationalité Bretonne et tu entres officiellement dans notre
-        famille. Tu maitrises déjà, enfin pas encore aussi bien que nous, une de nos spécialités : la galette de blé
-        noir.
-        A notre tour d’être éblouies par la vraie cuisine mexicaine ! Nous sommes très heureuses que tu fasses partie de
-        notre famille et on ne dit pas ça que pour les produits l’Oréal gratis ! </p>
-
-
-      <p>Nous sommes ravies que vous ayez trouvé votre idéal dans l’autre et même un confinement dans 25m2 n’a pas eu
-        raison de votre amour. Nous en sommes certaines, vous êtes complémentaires et fait l’un pour l’autre.</p>
-
-      <p>Vous voici donc fin prêts pour affronter les éventuelles turbulences de ce voyage que l’on vous souhaite le
-        plus
-        long et paisible possible.</p>
-
-
-      <p>Que cette magnifique journée soit le reflet de votre vie future, pleine de surprises, de rebondissements de
-        bonheur et de tendresses !</p>
-
-      <p>Félicitations et vive les mariés.</p>
+    </div>
+    <div id="speech-4" class="speech hidden">
+      <p>Bonjour à toutes et à tous, </p>
+      <p>Je tiens à vous dire que je suis très honoré de faire partie de cette belle union qu’est la vôtre et je vous souhaite de tout cœur plein de bonheur et d’amour dans votre voyage à deux. </p>
+      <p>Je suis ravi de voir que vous vous aimez, vous vous entendez et vous vous complétez dans votre âme, votre cœur, votre esprit et même dans le sport, maintenant vous ne faites plus qu’un, deux cœurs mais un seul battement. </p>
+      <p>Ce chemin est rempli de joies, d’expériences, de succès et d’obstacles de toutes sortes mais ensemble nous en profitons beaucoup plus. </p>
+      <p>Vevita, je suis très heureux de te voir ainsi, épanouie et surtout une femme déterminée, disciplinée, exigeante mais très loyale et dévouée à tes idéaux. Tu es devenue une femme qui lutte pour ses choix et aspirations et maintenant qui se complète avec ton union avec Romy. Je vois un couple d’aventuriers avec l’envie d’être heureux et de profiter pleinement de la vie qui n’en est qu’une. Merci Dieu pour toujours nous accompagner dans nos vies.  </p>
+      <p>Romy, bienvenu dans notre famille. Je veux te raconter quelque chose de drôle, ton cœur est déjà en partie mexicain. Tu te demandes pourquoi ? Tu aimes nous appeler “compadres” (potes), trinquer avec ta nouvelle famille, danser avec nous, t’amuser comme la dernière fois que nous nous sommes vus. Je suis ravi de te dire devant vous tous que je te considère comme l’un des nôtres Romy, mexicain avec un cœur français.</p>
+      <p>Il ne me reste plus qu’à vous souhaiter un chemin rempli d’amour et de succès ensemble !!</p>
+      <p>Merci de nous faire participer à cette grande histoire Romy et Veva. </p>
+      <p>Je vous aime très fort. </p>
+      <p>Votre oncle Ray</p>
+    </div>
+    <div id="speech-5" class="speech hidden">
+      <p>Chers Veva et Romain ainsi que les invités, comme vous je suis très heureux d’être présent pour cette union et de participer comme témoin du mariage de Veva et Romain que j’aime tant. </p>
+      <p>Je souhaite vous exprimer mon bonheur et vous dire d’être heureux dans cette nouvelle étape de votre vie. Pour moi, qui ait eu le plaisir de voir grandir tout au long de sa vie Veva, j’apprécie énormément de faire partie de cette union. </p>
+      <p>Je suis honoré par ce beau mariage parce que je tiens très fort à vous deux.  </p>
+      <p>Arriver jusqu’ici n’a pas été facile pour vous, vous avez dû surmonter les différences culturelles et habitudes de chacun, c’est la preuve que vous vous aimez et que vous voulez vraiment être ensemble.  </p>
+      <p>Je sais que vous allez être très heureux comme vous l’êtes aujourd’hui, en plus de vous aimer, vous vous respectez, vous vous comprenez et vous vous soutenez mutuellement. </p>
+      <p>Je ne peux vous souhaiter que tout le bonheur du monde et confiez toujours votre vie à Dieu. Sachez que vous pourrez toujours compter sur nous.</p>
+      <p>Merci </p>
     </div>
     <img class="frise" src="images/frise.png" alt="frise" />
   </main>

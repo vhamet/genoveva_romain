@@ -10,6 +10,7 @@
 
 body {
   margin: 0;
+  background: #faf8f6;
 }
 
 main {
@@ -18,6 +19,26 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+nav {
+  margin-top: 2rem;
+  padding: 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav label {
+  padding: 0.5rem 1.5rem;
+  color: var(--green);
+  font-family: creamyChocolote;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+nav label.current {
+  color: var(--blue);
 }
 
 .names {
@@ -38,4 +59,14 @@ main {
   font-family: creamyChocolote;
   font-size: 1.3rem;
   text-align: justify;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.speech.hidden {
+  display: none;
+}
+
+.speech:not(.current) {
+  opacity: 0;
 }
