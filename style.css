@@ -25,11 +25,11 @@ nav {
   margin-top: 2rem;
   padding: 0 1rem;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-nav label {
+nav .link {
   padding: 0.5rem 1.5rem;
   color: var(--green);
   font-family: creamyChocolote;
@@ -37,7 +37,7 @@ nav label {
   font-size: 1.3rem;
 }
 
-nav label.current {
+nav .link.current {
   color: var(--blue);
 }
 
